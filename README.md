@@ -1,6 +1,6 @@
 # Gestor de proyectos
 
-Para este tercer módulo del bootcamp de programación web de Adalab, el objetivo era crear un sitio web cuyo diseño se proporcionó al equipo pero con una estructura HTML y CSS bastante pobre que tuvimos que modificar y debíamos hacerlo funcionar usando nuestros conocimientos sobre React con el HTML, CSS y SASS aprendido anteriormente.
+Para este tercer módulo del bootcamp de programación web de Adalab, el objetivo era crear un sitio web cuyo diseño se proporcionó al equipo pero con una estructura HTML y CSS bastante pobre que tuvimos que modificar y debíamos hacerlo funcionar usando nuestros conocimientos sobre React.
 
 En este proyecto vamos a realizar una aplicación web que nos permite crear una tarjeta por cada unos de nuestros proyectos realizados. En la página web podemos introducir los datos del proyecto y obtener una vista maquetada con esta información que podremos compartir con quien queramos.
 
