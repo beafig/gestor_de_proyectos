@@ -1,0 +1,14 @@
+.ulCard {
+  margin-top: 90px;
+  display: grid;
+  grid-template-columns: 1fr;
+  @media (min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
+.eachCard {
+  display: flex;
+  justify-content: center;
+}

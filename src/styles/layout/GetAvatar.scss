@@ -1,0 +1,21 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 120px;
+  margin-top: 10px;
+  color: white;
+  text-align: center;
+  border: solid 2px #dbd3f8;
+  height: 43px;
+  background-color: #978bc6;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}

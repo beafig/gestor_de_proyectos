@@ -1,0 +1,15 @@
+.preview {
+  @media all and (min-width: 768px) {
+    width: 60%;
+  }
+  &__image {
+    object-fit: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70vh;
+    @media all and (min-width: 768px) {
+      height: 100vh;
+    }
+  }
+}

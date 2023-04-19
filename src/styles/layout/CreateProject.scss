@@ -1,0 +1,50 @@
+.main {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  background-color: #302c42;
+  @media all and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    min-width: 50vw;
+    justify-content: space-between;
+    gap: 25px;
+  }
+}
+
+#root {
+  background-color: #302c42;
+  font-family: "Roboto Mono", monospace;
+}
+
+.container-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main_btn {
+  margin-right: 25px;
+  font-size: 18px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 120px;
+  margin-top: 10px;
+  color: white;
+  text-align: center;
+  border: solid 2px #dbd3f8;
+  height: 43px;
+  background-color: #978bc6;
+  border-radius: 40px;
+  cursor: pointer;
+  &:hover {
+    transform: scale(130%);
+  }
+}
+
+.link_btn {
+  text-decoration: none;
+}

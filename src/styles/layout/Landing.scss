@@ -1,0 +1,37 @@
+.mainLanding {
+  background-color: #302c42;
+  min-height: 85vh;
+  &__section {
+    display: flex;
+    justify-content: center;
+  }
+  &__link {
+    color: white;
+    text-decoration: none;
+  }
+  &__btn {
+    padding: 10px;
+    display: inline-block;
+    font-size: 18px;
+    width: 300px;
+    margin: 25px 0;
+    color: white;
+    text-align: center;
+    border: solid 2px #dbd3f8;
+    height: 43px;
+    background-color: #978bc6;
+    border-radius: 40px;
+    cursor: pointer;
+    &:hover {
+      transform: scale(130%);
+    }
+  }
+  &__sectionCard {
+    margin-top: 50px;
+    .preview__autor {
+      @media (min-width: 768px) {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
